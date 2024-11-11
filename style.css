@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    background-color: burlywood;
+}
+
+#dalt {
+    margin: 20px 0; /* Espacio alrededor de la imagen */
+}
+
+/* Estilo de la imagen */
+#dalt img {
+    max-width: 100%; /* Hace que la imagen sea responsive */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+#dalt {
+    align-items: center;
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.popup-content input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    font-size: 16px;
+}
+
+.popup-content button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.popup-content button:hover {
+    background-color: #45a049;
+}
+
+#responseMessage {
+    margin-top: 10px;
+    font-size: 14px;
+}
